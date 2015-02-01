@@ -26,7 +26,7 @@ The Alias is automatically added by the system, you don't need add it manually. 
 
 ## Configuration
 
-Run `php artisan config:publish carloscsrm/googleanalytics` and modify the config file with your own information.
+Run `php artisan config:publish carloscsrm/googleanalytics` and modify the config file with your own Analytics ID.
 
 ## Usage
 
