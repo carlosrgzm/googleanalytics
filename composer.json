@@ -1,6 +1,12 @@
 {
     "name": "carloscsrm/googleanalitycs",
-    "description": "",
+    "description": "Use google analytics in your views",
+    "keywords": [
+        "google analytics",
+        "php",
+        "laravel"
+    ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Carlos Rodríguez",
@@ -19,5 +25,6 @@
             "Carloscsrm\\Googleanalitycs\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "version": "v0.0.1"
 }
