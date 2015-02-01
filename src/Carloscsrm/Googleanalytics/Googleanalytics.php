@@ -8,13 +8,11 @@ class Googleanalytics
 {
 
     /**
-     * @param String $urlToShare
-     * @param array $params
      * @return mixed
      */
-    public static function render($urlToShare, $params = array())
+    public static function render()
     {
         View::addNamespace('googleanalytics', __DIR__ . '/../../views');
-        return View::make('googleanalytics::googleanalytics', compact('urlToShare', 'textToShare', 'twitterVia'));
+        return View::make('googleanalytics::googleanalytics');
     }
 }
