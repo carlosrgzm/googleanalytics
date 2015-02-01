@@ -12,7 +12,7 @@ Plugin for Laravel 4 just to include Google Analytics script in your views
 
 1. Add `carloscsrm/googleanalytics` to `composer.json`.
 
- > "carloscsrm/googleanalytics": "1.*"
+ > "carloscsrm/googleanalytics": "1.1.*"
 
 2. Run composer update to pull down the latest version of Google Analytics package.
 
