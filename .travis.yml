@@ -11,3 +11,5 @@ before_script:
   - travis_retry composer install --prefer-source --no-interaction --dev
 
 script: phpunit
+
+repo_token: rvpEPvkUBbTS7n1LDInpnAm2qngjbkcuy
