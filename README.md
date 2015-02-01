@@ -32,5 +32,5 @@ Run `php artisan config:publish carloscsrm/googleanalytics` and modify the confi
 
 For using this package you can add this code in your templates
 
-`{{Googleanalytics::render($your_url, array('twitterVia'=>'your_twitter_account', 'textToShare'=>'Your text for twitter')) }}`
+`{{Googleanalytics::render()}}`
 

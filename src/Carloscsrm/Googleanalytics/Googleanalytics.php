@@ -12,7 +12,12 @@ class Googleanalytics
      */
     public static function render()
     {
-        View::addNamespace('googleanalytics', __DIR__ . '/../../views');
-        return View::make('googleanalytics::googleanalytics');
+        Config::addNamespace('googleanalytics', __DIR__ . '/../../config');
+        View::addNamespace('googleanalytics', __DIR__ . '/../../view');
+
+        $analyticsCode = Config::get('googleanalytics::analyticsCode');
+        $displayfeatures = Config::get('googleanalytics::displayfeatures');
+
+        return View::make('googleanalytics::googleanalytics', compact('analyticsCode','displayfeatures'));
     }
 }
