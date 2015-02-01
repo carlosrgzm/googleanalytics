@@ -1,10 +1,11 @@
 {
     "name": "carloscsrm/googleanalitycs",
-    "description": "Use google analytics in your views",
+    "description": "Use google analytics in your views for Laravel 4",
     "keywords": [
         "google analytics",
         "php",
-        "laravel"
+        "laravel",
+        "laravel4"
     ],
     "license": "MIT",
     "authors": [
