@@ -1,6 +1,6 @@
 {
     "name": "carloscsrm/googleanalytics",
-    "description": "Use google analytics in your views for Laravel 4",
+    "description": "Use google analytics in Laravel 4.",
     "keywords": [
         "google analytics",
         "php",
