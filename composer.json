@@ -1,5 +1,5 @@
 {
-    "name": "carloscsrm/googleanalitycs",
+    "name": "carloscsrm/googleanalytics",
     "description": "Use google analytics in your views for Laravel 4",
     "keywords": [
         "google analytics",
