@@ -14,7 +14,7 @@ If you want to use it in Laravel 4, please visit https://github.com/carlosrgzm/g
 
 1. Add `carloscsrm/googleanalytics` to `composer.json`.
 
- > "carloscsrm/googleanalytics": "1.1.*"
+ > "carloscsrm/googleanalytics": "2.0.*"
 
 2. Run composer update to pull down the latest version of Google Analytics package.
 

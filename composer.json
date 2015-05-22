@@ -1,4 +1,5 @@
 {
+
   "name": "carloscsrm/googleanalytics",
   "description": "Google Analytics plugin for Laravel 5",
   "require": {
