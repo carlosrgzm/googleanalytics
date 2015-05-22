@@ -10,7 +10,7 @@ If you want to use it in Laravel 4, please click here https://github.com/carlosr
 [![Latest Unstable Version](https://poser.pugx.org/carloscsrm/googleanalytics/v/unstable.svg)](https://packagist.org/packages/carloscsrm/googleanalytics) 
 [![License](https://poser.pugx.org/carloscsrm/googleanalytics/license.svg)](https://packagist.org/packages/carloscsrm/googleanalytics)
 
-## Installation
+## Installation 
 
 1. Add `carloscsrm/googleanalytics` to `composer.json`.
 
