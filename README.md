@@ -18,16 +18,17 @@ If you want to use it in Laravel 4, please click here https://github.com/carlosr
 
 2. Run composer update to pull down the latest version of Google Analytics package.
 
-3. Now open up app/config/app.php and add the service provider to your providers array.
+3. Now edit config/app.php and add the service provider and the aliases in the providers and aliases arrays.
 
- >  'providers' => array(
+ >  providers
         'Carloscsrm\Googleanalytics\GoogleanalyticsServiceProvider',
-    ),
-
-The Alias is automatically added by the system, you don't need add it manually. The alias is **Googleanalytics**
+    
+    
+ >  aliases
+        'Googleanalytics' => 'Carloscsrm\Googleanalytics\GoogleanalyticsFacade',
+    
 
 ## Configuration
-
 Run `php artisan config:publish carloscsrm/googleanalytics` and modify the config file with your own Analytics ID.
 
 ## Usage
