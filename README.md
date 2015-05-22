@@ -1,5 +1,7 @@
-# Google Analytics for Laravel 4
-Plugin for Laravel 4 just to include Google Analytics script in your views
+# Google Analytics for Laravel 5
+Plugin for Laravel 5 just to include Google Analytics script in your views
+
+If you are searching this plugin for Laravel 4, please visit https://github.com/carlosrgzm/googleanalytics/tree/Laravel4
 
 [![Build Status](https://travis-ci.org/carlosrgzm/googleanalytics.svg?branch=master)](https://travis-ci.org/carlosrgzm/googleanalytics)
 [![Coverage Status](https://coveralls.io/repos/carlosrgzm/googleanalytics/badge.svg)](https://coveralls.io/r/carlosrgzm/googleanalytics)
