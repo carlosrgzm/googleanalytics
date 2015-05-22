@@ -1,4 +1,4 @@
-# share-laravel
+# Google Analytics for Laravel 4
 Plugin for Laravel 4 just to include Google Analytics script in your views
 
 [![Build Status](https://travis-ci.org/carlosrgzm/googleanalytics.svg?branch=master)](https://travis-ci.org/carlosrgzm/googleanalytics)
