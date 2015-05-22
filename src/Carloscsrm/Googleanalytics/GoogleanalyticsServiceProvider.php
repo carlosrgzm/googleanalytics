@@ -32,23 +32,16 @@ class GoogleanalyticsServiceProvider extends ServiceProvider
             return new Googleanalytics(config('googleanalytics'));
         });
 
-        $this->app->booting(
-            function () {
-                $loader = AliasLoader::getInstance();
-                $loader->alias('Googleanalytics', 'Carloscsrm\Googleanalytics\GoogleanalyticsFacade');
-            }
-        );
-
         /*$this->app['toastr'] = $this->app->share(function ($app)
 		{
 			return new Toastr($app['session'], $app['config']);
 		});*/
     }
 
-    /*
+
     public function provides()
     {
-        return ['toastr'];
-    }*/
+        return ['googleanalytics'];
+    }
 
 }
